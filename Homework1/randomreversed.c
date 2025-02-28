@@ -5,8 +5,7 @@ int main() {
     int low = 1, high = 100, guess;
     char res;
 
-    printf("Think of a number between 1 and 100\n");
-    printf("(h = too high, l = too low, c = correct)\n");
+    printf("Think of a number between 1 and 100\n(h = too high, l = too low, c = correct)\n");
 
     while (low <= high) {
 
